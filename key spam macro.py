@@ -1,8 +1,7 @@
-from flask import Config
 import win32api, win32con
 import keyboard
 from configparser import ConfigParser
-config = ConfigParser
+config = ConfigParser()
 config.read("config.ini")
 
 
